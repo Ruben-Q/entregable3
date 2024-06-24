@@ -6,9 +6,9 @@ const routerMovies = require('./movie.router');
 const router = express.Router();
 
 // colocar las rutas aquí
-router.use('/actor', routerActor)
-router.use('/director', routerDirector)
-router.use('/genre', routerGenre)
-router.use('/movie', routerMovies)
+router.use('/actors', routerActor)
+router.use('/directors', routerDirector)
+router.use('/genres', routerGenre)
+router.use('/movies', routerMovies)
 
 module.exports = router;
